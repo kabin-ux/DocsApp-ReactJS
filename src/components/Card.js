@@ -9,10 +9,13 @@ const Card = () => {
         <FaRegFileAlt />
         <p className='text-sm leading-tight mt-5 font-semibold'>lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed posuere consectetur est at lobortis. Etiam porta sem malesuada
         </p>
-        <div className='footer absolute bottom-0 bg-sky-200 w-full  py-3 left-0'>
-            <div className=''>
+        <div className='footer absolute bottom-0 bg-zinc-900/90 w-full  left-0'>
+            <div className='flex items-center py-3 px-8 justify-between mb-3'>
                 <h5>.4mb</h5>
-                <FiDownload />
+                <span className='w-7 h-7 bg-sky-600 rounded-full flex items-center justify-center'><FiDownload size="0.8em" color='white'/></span>
+            </div>
+            <div className='tag w-full py-4 bg-green-700 flex items-center justify-center'>
+              <h3 className='text-sm font-semibold'>Download Now</h3>
             </div>
         </div>
 
